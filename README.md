@@ -3,9 +3,12 @@ Assumptions:
 2. A Customer can only have one current order.
 3. A Delivery Executive can at a time deliver only one order.
 
+Algorithm:
+We first create a simple weighted graph where all restaurants and customers are Vertexes and the weight is time taken to go the next Node. Then we find out the restaurant which has the min time to go for the delivery executive. This restaurant becomes the start point, from then we go to the customer and then find out the nearest restaurant to that customer and again repeat the process. 
+
 For getting the best route, start the service and make a post call to "/api/v1/best-route".
 
-Sample Request
+Sample Request Body
 ```
 [
     {
