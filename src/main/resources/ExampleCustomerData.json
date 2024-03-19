@@ -1,0 +1,22 @@
+[
+  {
+    "customerId" : 1,
+    "name" : "Customer 1",
+    "address" : {
+      "addressId" : 11,
+      "addressName" : "Customer Address 1",
+      "latitude" : 12.991519281678887,
+      "longitude" : 77.73340082427782
+    }
+  },
+  {
+    "customerId" : 2,
+    "name" : "Customer 2",
+    "address" : {
+      "addressId" : 12,
+      "addressName" : "Customer Address 2",
+      "latitude" : 12.961061502017012,
+      "longitude" : 77.74831204327775
+    }
+  }
+]

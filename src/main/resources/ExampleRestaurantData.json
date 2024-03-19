@@ -1,0 +1,22 @@
+[
+  {
+    "restaurantId" : 1,
+    "name" : "Restaurant A",
+    "address" : {
+      "addressId" : 1,
+      "addressName" : "Restaurant Address 1",
+      "latitude" : 12.992043245311722,
+      "longitude" : 77.71567987917079
+    }
+  },
+  {
+    "restaurantId" : 2,
+    "name" : "Restaurant B",
+    "address" : {
+      "addressId" : 2,
+      "addressName" : "Restaurant Address 2",
+      "latitude" : 12.973446410070526,
+      "longitude" : 77.74274258338535
+    }
+  }
+]
